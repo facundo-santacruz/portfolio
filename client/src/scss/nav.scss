@@ -1,0 +1,34 @@
+@mixin align {
+    display: flex    
+} 
+
+.principal{
+    background-color: black;
+    height: 15%;
+    max-height: 140px;
+    display: grid;
+    align-items: center;
+
+}
+
+.secondary{
+    text-decoration: none;
+    color: black;
+    @include align;
+    justify-content: flex-end;
+    margin-right: 3%;
+}
+
+.link{
+    text-decoration: none;
+    border: orange solid 1px;
+    color: white;
+    padding: 20px;
+    margin-right: 2%;
+    border-radius: 50px;
+}
+
+.link:hover{
+    background-color: white;
+    color: black;
+}
