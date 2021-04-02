@@ -1,6 +1,7 @@
 import React from 'react'
 import "../scss/container.scss"
 import Projects from "./Projects";
+import Tecnologies from "./Tecnologies";
 const Container = () => {
     return (
         <div className="container-principal">
@@ -10,7 +11,7 @@ const Container = () => {
                     <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae illum architecto accusamus sequi incidunt corrupti totam, ullam sint rem, eos hic optio. Ducimus facere aliquid aut dolore voluptate molestias?</h3>
                 </div>
                 <Projects/> 
-            
+                <Tecnologies/>
             
         </div>
     )
