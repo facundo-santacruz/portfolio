@@ -2,21 +2,21 @@
     display: flex    
 } 
 
-.principal{
+.nav-principal{
     background-color: black;
-    height: 15%;
+    height: 10%;
     max-height: 140px;
     display: grid;
     align-items: center;
-
 }
 
-.secondary{
+.nav-secondary{
     text-decoration: none;
     color: black;
     @include align;
     justify-content: flex-end;
     margin-right: 3%;
+    transform: translateX(10px) ;
 }
 
 .link{
