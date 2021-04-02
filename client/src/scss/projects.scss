@@ -1,0 +1,43 @@
+.projects-principal{
+    margin-top: 2%;
+    display: grid;
+    width:90%;
+    background-color: black;
+    align-items: center;
+    color: white;
+}
+
+.projects-secondary{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 90%;
+    border-bottom: blanchedalmond 1px solid;
+    border-top: blanchedalmond 1px solid;
+    padding-bottom: 2%;
+    background-color: darkslategrey;
+    margin-bottom: 2%;
+}
+
+span{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.projects-card{
+    width: 100%;
+}
+
+.projects-img{
+    width: 50%;
+}
+
+.projects-container{
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+img{
+    width: 100%;
+}
