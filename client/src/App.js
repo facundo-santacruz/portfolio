@@ -2,7 +2,7 @@
 import './App.css';
 import { BrowserRouter, Route } from "react-router-dom";
 import Principal from "./Components/Principal";
-import About from "./Components/About";
+import About from "./Components/Contact";
 import Container from "./Components/Container";
 import Nav from "./Components/Nav";
 import Projects from "./Components/Projects";

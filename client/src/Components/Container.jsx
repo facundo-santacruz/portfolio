@@ -2,6 +2,8 @@ import React from 'react'
 import "../scss/container.scss"
 import Projects from "./Projects";
 import Tecnologies from "./Tecnologies";
+import Contact from "./Contact";
+
 const Container = () => {
     return (
         <div className="container-principal">
@@ -12,6 +14,7 @@ const Container = () => {
                 </div>
                 <Projects/> 
                 <Tecnologies/>
+                <Contact/>
             
         </div>
     )
