@@ -43,3 +43,15 @@ span{
 img{
     width: 100%;
 }
+
+@media (max-width: 500px) {
+    .projects-card{
+        flex-direction: column;
+    }
+    .projects-img{
+        width: 90%;
+    }
+    .projects-container{
+        width: 90%;
+    }
+}

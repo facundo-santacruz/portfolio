@@ -6,7 +6,6 @@
 
 .tecnologies-secondary{
     display: contents;
-    width: 90%;
 }
 
 .tecnologies-imagen{
@@ -19,4 +18,15 @@
 .tecnologies-imagen:hover{
     transform:rotate(360deg) ;
     opacity: 60%;
+}
+
+@media (max-width: 550px) {
+    .tecnologies-imagen{
+        min-height: 110px;
+    }    
+    h1{
+        font-size: 1.5em;
+    }
+
+
 }

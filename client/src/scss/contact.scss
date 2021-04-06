@@ -1,14 +1,50 @@
 .contact-principal{
-    width: 40%;
     background-color: white;
     margin-top: 2%;
     text-align: -webkit-center;
+    justify-content: center;
+    margin-bottom: 2%;
+    width: 50%;
 }
 
+h1{
+    width: 90%;
+}
 
+.contact-secondary{
+    justify-content: center;
+}
 
 .contact-third{
     display: flex;
     flex-direction: column;
     width: 90%;
+    margin-bottom: 6%;
+}
+
+@media (max-width: 300px) {
+    .contact-principal{
+        width: 90%;
+    }
+}
+
+label{
+    margin-bottom: 2%;
+    text-align: justify;
+}
+
+button{
+    justify-self: center;
+    margin-bottom: 6%;
+}
+
+button:hover{
+    background-color: rgb(138, 53, 53);
+    color: white;
+    border: 3px rgb(35, 27, 27) solid;
+    border-radius: 50px;
+}
+
+textarea{
+    resize: none;
 }
