@@ -1,0 +1,32 @@
+.tecnologies-principal{
+    background-color: white;
+    width: 90%;
+    margin-top: 2%;
+}
+
+.tecnologies-secondary{
+    display: contents;
+}
+
+.tecnologies-imagen{
+    width: 40%;
+    max-width: 200px;
+    max-height: 110px;
+    padding: 2%;
+}
+
+.tecnologies-imagen:hover{
+    transform:rotate(360deg) ;
+    opacity: 60%;
+}
+
+@media (max-width: 550px) {
+    .tecnologies-imagen{
+        min-height: 110px;
+    }    
+    h1{
+        font-size: 1.5em;
+    }
+
+
+}
