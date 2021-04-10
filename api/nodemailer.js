@@ -2,10 +2,10 @@ var nodemailer = require('nodemailer');
 const dotenv = require('dotenv');
 dotenv.config();
 
-const sendEmail = async({msj, topic, email}) => {
+const sendEmail = async({msj, subject, email}) => {
     const from = email;
     const to = process.env.TO_EMAIL
-    const subject = topic;
+    
     var transporter =  await nodemailer.createTransport({
         host: 'smtp.gmail.com',
         port: 465,

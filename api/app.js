@@ -5,7 +5,9 @@ const morgan = require('morgan')
 const bodyParser = require('body-parser')
 const { sendEmail} = require('./nodemailer')
 
+app.set('port', process.env.PORT || 3001)
 app.use(morgan('tiny'))
+app.use(cors())
 app.use(express.urlencoded({
   extended: true
 }));
@@ -17,6 +19,6 @@ app.get('/sendMsg', async (req, res) => {
   res.send(state).status(200);
 });
  
-app.listen(4000, function () {
-  console.log('Example app listening on port 3000!');
+app.listen(app.get('port'), function () {
+  console.log(`Example app listening on port ${app.get('port')}!`);
 });
