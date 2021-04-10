@@ -11,8 +11,8 @@ const Projects = () => {
                         <img alt="Imagen Mercado Libre" src="https://d1ih8jugeo2m5m.cloudfront.net/2019/11/Ejemplo-4.png"></img>
                     </div>
                     <div className="projects-container">
-                        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia similique ipsam provident, aliquam esse aliquid quibusdam inventore libero est possimus nulla explicabo ipsum soluta omnis asperiores eius nisi. Omnis, placeat?</h5>
-                        <p>Link: <a href="https://meli-app-facundo-santacruz.herokuapp.com/">¡Click Aquí!</a></p>
+                        <h5>Proyecto desarrollado durante el Bootcamp Henry, el cual permite buscar productos según categoría o mediante producto, conteniendo filtros para hacermás exahustiva la búsqueda.</h5>
+                        <button><a href="https://meli-app-facundo-santacruz.herokuapp.com/">Ir al proyecto</a></button>
                     </div>
                 </div>
 
