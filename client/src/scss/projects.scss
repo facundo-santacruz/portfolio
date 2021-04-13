@@ -8,17 +8,19 @@
     color: white;
     opacity: 90%;
     border-radius: 10px;
-    transition-duration: 5sec;
+    border-radius: 10px;
+    border: 4px  rgb(23, 190, 23) solid;
+    // transition-duration: 5sec;
 }
 
-@keyframes projects-principal {
-    0% {
-        translate: 200px;
-    }
-    100% {
-        translate: 0px
-    }
-}
+// @keyframes projects-principal {
+//     0% {
+//         translate: 200px;
+//     }
+//     100% {
+//         translate: 0px
+//     }
+// }
 
 .projects-secondary{
     display: flex;

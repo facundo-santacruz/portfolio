@@ -3,9 +3,9 @@ import "../scss/principal.scss";
 import imagen from "../imagen/FOTO.jpeg"
 const Principal = () => {
     return (
-        <div className="container-principal">
+        <div className="principal-principal">
         
-            <img className="imagen-container" src={imagen} alt="imagen"/>
+            <img className="imagen-principal" src={imagen} alt="imagen"/>
         </div>
     )
 }

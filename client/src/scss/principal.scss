@@ -1,4 +1,4 @@
-.container-principal{
+.principal-principal{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,7 +6,7 @@
     height: 100vh;
 }
 
-.imagen-container{
+.imagen-pricipal{
     display:flex;
     max-width: 300px;
     max-height:300px;
@@ -15,7 +15,7 @@
 }
 
 @media (max-width: 310px) {
-    .imagen-container{
+    .imagen-principal{
         max-width: 150px;
         min-width: 150px;
     }
