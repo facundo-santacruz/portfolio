@@ -2,7 +2,7 @@ import React from 'react'
 import '../scss/projects.scss'
 const Projects = () => {
     return (
-        <div className="projects-principal">
+        <div className="projects-principal" id="projects">
             <h1>Proyectos</h1>
             <div className="projects-secondary">
                 <span>Meli App</span>

@@ -36,7 +36,7 @@ const Contact = () => {
         
     
     const handleChange = (e) => {
-        // console.log(e.target.name);
+        
         setInput({
             ...input,
             [e.target.name]: e.target.value 

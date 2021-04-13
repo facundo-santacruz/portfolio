@@ -1,17 +1,28 @@
 .container-principal{
     display: flex;
-    margin-top: 2%;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
+    
+    padding-top: 130px;
 }
 
 .container-secondary{
     width: 90%;
     background-color: lavender;
     max-height: 600px;
+    animation: translade 0.5s  linear;
 }
 
+@keyframes translade {
+    from {
+      transform: translate(1000px,0px);
+    }
+    to {
+      transform: translate(0px, 0px);
+    }
+}
 .container-imagen{
     width:100%;
     max-height: 300px;

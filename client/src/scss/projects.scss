@@ -10,17 +10,17 @@
     border-radius: 10px;
     border-radius: 10px;
     border: 4px  rgb(23, 190, 23) solid;
-    // transition-duration: 5sec;
+    animation: traslade 0.5s  linear;
 }
 
-// @keyframes projects-principal {
-//     0% {
-//         translate: 200px;
-//     }
-//     100% {
-//         translate: 0px
-//     }
-// }
+@keyframes traslade {
+    from {
+      transform: translate(-1000px,0px);
+    }
+    to {
+      transform: translate(0px, 0px);
+    }
+}
 
 .projects-secondary{
     display: flex;
@@ -32,6 +32,10 @@
     padding-bottom: 2%;
     background-color: darkslategrey;
     margin-bottom: 2%;
+}
+
+h1{
+    justify-self: center;
 }
 
 span{

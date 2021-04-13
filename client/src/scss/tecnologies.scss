@@ -1,4 +1,5 @@
 .tecnologies-principal{
+    display: grid;
     background-color: black;
     width: 90%;
     margin-top: 2%;
@@ -14,6 +15,7 @@
     flex-flow: wrap;
     justify-content: center;
 }
+
 
 
 .tecnologies-container-imagen{
