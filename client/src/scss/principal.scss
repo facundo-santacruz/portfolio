@@ -1,0 +1,22 @@
+.container-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.imagen-container{
+    display:flex;
+    max-width: 300px;
+    max-height:300px;
+    border-radius: 100vh;
+
+}
+
+@media (max-width: 310px) {
+    .imagen-container{
+        max-width: 150px;
+        min-width: 150px;
+    }
+}
