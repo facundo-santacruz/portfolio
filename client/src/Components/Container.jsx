@@ -3,6 +3,7 @@ import "../scss/container.scss"
 import Projects from "./Projects";
 import Tecnologies from "./Tecnologies";
 import Contact from "./Contact";
+import BottomBar from "./BottomBar";
 
 const Container = () => {
     return (
@@ -15,6 +16,7 @@ const Container = () => {
                 <Projects/> 
                 <Tecnologies/>
                 <Contact/>
+                <BottomBar/>
             
         </div>
     )

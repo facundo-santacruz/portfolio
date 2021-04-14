@@ -1,4 +1,5 @@
 .tecnologies-principal{
+    display: grid;
     background-color: black;
     width: 90%;
     margin-top: 2%;
@@ -16,19 +17,23 @@
 }
 
 
+
 .tecnologies-container-imagen{
     display: flex;
     flex-direction: column;
     width: 40%;
-    max-width: 50%;
+    max-width: 200px;
     padding: 2%;
+    justify-content: space-between;
+    min-width: 100px;
 }
 
 .tecnologies-imagen{
     // width: 40%;
-    max-width: 200px;
-    max-height: 110px;
+    // max-width: 200px;
+    max-height: 173.828px;
     padding: 2%;
+    padding-bottom: 10%;
     animation: rotation 6s infinite linear;
 }
 
@@ -48,6 +53,7 @@
 @media (max-width: 550px) {
     .tecnologies-imagen{
         min-height: 110px;
+        // max-width: 40%;
     }    
     h1{
         font-size: 1.5em;

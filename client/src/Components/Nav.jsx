@@ -6,9 +6,9 @@ const Nav = () => {
     return (
         <div className="nav-principal">
             <div className="nav-secondary">
-                <Link className="link" to="/menu/projects">Proyectos</Link>
-                <Link className="link" to="/menu/tecnologies">Tecnologías</Link>
-                <Link className="link" to="/menu/about">Sobre mí</Link>  
+                <a className="link" href="/menu#projects">Proyectos</a>
+                <a className="link" href="/menu#tecnologies">Tecnologías</a>
+                <a className="link" href="/menu#contact">Contacto</a>  
             </div>
         </div>
     )
