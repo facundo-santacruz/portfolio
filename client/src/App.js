@@ -13,8 +13,8 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Route path="" component={Nav}/>
         <Route exact path="/" component={Principal}/>
-        <Route path="/menu" component={Nav}/>
         <Route path="/menu" component={Container}/>
         <Route path="/menu/about" component={About}/>
         <Route path="/menu/tecnologies" component={Tecnologies}/>

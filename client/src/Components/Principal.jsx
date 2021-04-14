@@ -4,10 +4,13 @@ import imagen from "../imagen/FOTO.jpeg"
 const Principal = () => {
     return (
         <div className="principal-principal">
-        
-            <img className="imagen-principal" src={imagen} alt="imagen"/>
+            <div className="principal-secondary">
+                <h1>FULL STACK WEB DEVELOPER</h1>
+                <img className="imagen-principal" src={imagen} alt="imagen"/>
+            </div>
         </div>
     )
 }
 
 export default Principal
+
