@@ -93,7 +93,7 @@ const Contact = () => {
         
     }
     return (
-        <form onSubmit={handleSubmit} className="contact-principal">
+        <form id="contact" data-aos="fade-up" onSubmit={handleSubmit} className="contact-principal">
             <h1>Contacto</h1>
             <div className="contact-secondary">
                 <div className="contact-third">

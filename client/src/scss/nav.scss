@@ -3,15 +3,13 @@
 } 
 
 .nav-principal{
-    position:fixed;
-    width: 100%;
-    background-color: black;
-    height: 120px;
+    position:relative;
+    margin-bottom: 2vh;
     display: grid;
     align-items: center;
     border-bottom: rgb(23, 190, 23) 5px solid;
     z-index: 10;
-    float: inline-start;
+    justify-content: flex-end;
 }
 
 .nav-secondary{
@@ -20,23 +18,33 @@
     text-decoration: none;
     color: black;
     @include align;
-    justify-content: flex-end;
-    width: 97%;
+    justify-content: space-around;
+    width: 90%;
+    margin-bottom: 10px;
+    a{
+        text-decoration: none;
+        // border: orange solid 1px;
+        color: white;
+        padding: 15px;
+    }
 }
 
-.link{
-    margin-right: 2%;
-    text-decoration: none;
-    border: orange solid 1px;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    background: linear-gradient(45deg, rgb(23, 190, 23), rgb(43, 43, 42));
-    animation: transition( all 5s ease-in);
+.collapsable_principal{
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    z-index: 12;
 }
 
+.collapsable_btn{
+    width:20px;
+    height: 20px;
+    background-color: blanchedalmond;
+    justify-self: right;
+    margin-right: 5%;
+}
 .link:hover{
-    background-color: white;
+    // background-color: white;
     color: black;
     background: linear-gradient(45deg, white, rgb(43, 43, 42));
     box-shadow: white 2px 2px 10px;
@@ -44,17 +52,44 @@
 
 
 @media (max-width: 400px) {
-    .link{
-        padding: 2px;
-        flex-direction: column;
-        font-size: 1em;
-        margin-bottom: 5px;
-        margin-right: 0%;
-    }
-    .nav-secondary{
-        flex-direction: column;
-        width: 93%;
-        justify-self: center;
-    }
+    // .link{
+    //     padding: 2px;
+    //     flex-direction: column;
+    //     font-size: 1em;
+    //     margin-bottom: 5px;
+    //     margin-right: 0%;
+    // }
+    // .nav-secondary{
+    //     flex-direction: column;
+    //     width: 93%;
+    //     justify-self: center;
+    // }
     
+}
+
+@media (max-width: 500px) {
+    .nav-secondary {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .nav-principal{
+        background: #151414;
+        width: 100%;
+        position: absolute;
+        top: 110px;
+        display: block;
+        border-bottom: none;
+    }
+    .collapsable_principal{
+        display: grid;
+        text-align: justify;
+    }
+    .collapsable_btn{
+        justify-content: end;
+    }
+    .link{
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+    }
 }

@@ -2,40 +2,37 @@
     margin-top: 2%;
     display: grid;
     width:90%;
-    background-color: black;
+    // background-color: black;
     opacity: 95%;
     align-items: center;
     color: white;
     opacity: 90%;
     border-radius: 10px;
-    border-radius: 10px;
     border: 4px  rgb(23, 190, 23) solid;
-    animation: traslade 0.5s  linear;
+    margin-left: 4%;
 }
 
-@keyframes traslade {
-    from {
-      transform: translate(-1000px,0px);
-    }
-    to {
-      transform: translate(0px, 0px);
-    }
-}
+
 
 .projects-secondary{
     display: flex;
     flex-direction: column;
     justify-self: center;
     width: 90%;
-    border-bottom: blanchedalmond 1px solid;
-    border-top: blanchedalmond 1px solid;
+    border: blanchedalmond 1px solid;
     padding-bottom: 2%;
-    background-color: darkslategrey;
+    background-color: rgb(68, 12, 12);
     margin-bottom: 2%;
+    justify-content: center;
+    border-radius: 10px;
 }
 
 h1{
     justify-self: center;
+}
+
+h3{
+    font-size: 3vh;
 }
 
 span{
@@ -48,19 +45,22 @@ a{
 }
 
 .projects-card{
-    width: 100%;
+    width: 95%;
     display: flex;
     align-items: center;
 }
 
 .projects-img{
-    width: 50%;
+    height: 300px;
 }
 
 .projects-container{
     width: 50%;
     padding-left: 2%;
     padding-right: 2%;
+    h5{
+        font-size: 2vh;
+    }
 }
 
 img{

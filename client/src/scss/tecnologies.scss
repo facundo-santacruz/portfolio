@@ -1,7 +1,7 @@
 .tecnologies-principal{
     display: grid;
-    background-color: black;
     width: 90%;
+    justify-self: center;
     margin-top: 2%;
     color: white;
     opacity: 80%;
@@ -29,14 +29,12 @@
 }
 
 .tecnologies-imagen{
-    // width: 40%;
-    // max-width: 200px;
     max-height: 173.828px;
     padding: 2%;
     padding-bottom: 10%;
-    animation: rotation 6s infinite linear;
+    // animation: rotation 6s infinite linear;
 }
-
+//
 @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -46,6 +44,7 @@
     }
 }
 .tecnologies-imagen:hover{
+    animation: rotation  6s infinite linear;
     transform:rotate(360deg) ;
     opacity: 60%;
 }
@@ -55,9 +54,9 @@
         min-height: 110px;
         // max-width: 40%;
     }    
-    h1{
-        font-size: 1.5em;
-    }
+    // h1{
+    //     font-size: 1.5em;
+    // }
 
 
 }

@@ -15,7 +15,7 @@ const imagen= [
 
 const Tecnologies = () => {
     return (
-        <div className="tecnologies-principal" id="tecnologies">
+        <div data-aos="fade-up" className="tecnologies-principal" id="tecnologies">
             <h1>Tecnologías</h1>
             <div className="tecnologies-secondary">
                 {imagen.map( (item, i) => {

@@ -1,5 +1,5 @@
 
-import './App.css';
+import './scss/App.scss';
 import { BrowserRouter, Route } from "react-router-dom";
 import Principal from "./Components/Principal";
 import About from "./Components/Contact";
@@ -9,16 +9,18 @@ import Projects from "./Components/Projects";
 import Tecnologies from "./Components/Tecnologies";
 
 import './scss/index.scss';
+import BottomBar from './Components/BottomBar';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Route path="" component={BottomBar}/>
         <Route path="" component={Nav}/>
         <Route exact path="/" component={Principal}/>
-        <Route path="/menu" component={Container}/>
-        <Route path="/menu/about" component={About}/>
-        <Route path="/menu/tecnologies" component={Tecnologies}/>
-        <Route path="/menu/projects" component={Projects}/>
+        <Route path="/initial" component={Container}/>
+        <Route path="/about" component={About}/>
+        <Route path="/tecnologies" component={Tecnologies}/>
+        <Route path="/projects" component={Projects}/>
       </BrowserRouter>
     </div>
   );
